@@ -18,6 +18,10 @@ h1 {
   background-color: #f8c5c5;
 }
 
+.white {
+  background-color: #fff;
+}
+
 .limited-text {
   width: 20em;
 }
