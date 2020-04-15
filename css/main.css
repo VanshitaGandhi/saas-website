@@ -9,3 +9,15 @@ h1 {
 .green {
   background-color: #d2eae8;
 }
+
+.yellow {
+  background-color: #fdedcb;
+}
+
+.pink {
+  background-color: #f8c5c5;
+}
+
+.limited-text {
+  width: 20em;
+}
