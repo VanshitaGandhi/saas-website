@@ -65,7 +65,7 @@ fieldset {
   display: flex;
 }
 
-sinput,
+input,
 select,
 textarea,
 input[type="radio"],
