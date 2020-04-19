@@ -37,3 +37,62 @@ h1 {
 .limited-text {
   width: 20em;
 }
+
+.logo,
+nav a:hover,
+nav a:focus {
+  color: #000;
+}
+
+table {
+  min-width: 50em;
+}
+
+input {
+  border: 1px solid #f8c5c5;
+}
+
+hr {
+  border: 1px solid #f8c5c5;
+  opacity: .3;
+}
+
+fieldset {
+  border: 0;
+}
+
+.radio {
+  display: flex;
+}
+
+sinput,
+select,
+textarea,
+input[type="radio"],
+input[type="checkbox"] {
+  border: 1px solid #f8c5c5;
+}
+
+.height {
+  height: 10em;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .padleft {
+    padding-left: .5rem;
+  }
+
+  .padright {
+    padding-right: .5rem;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .table-wrapper {
+    overflow: visible;
+  }
+
+}
