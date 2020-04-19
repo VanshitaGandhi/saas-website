@@ -77,6 +77,26 @@ input[type="checkbox"] {
   height: 10em;
 }
 
+.skip-links {
+  position: absolute;
+  top: -3em;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.skip-links a:focus {
+  top: 0;
+}
+
+nav a:focus {
+  outline: 3px solid #000;
+}
+
+a:focus {
+  outline: 3px solid #000;
+}
+
 @media only screen and (min-width: 38em) {
 
   .padleft {

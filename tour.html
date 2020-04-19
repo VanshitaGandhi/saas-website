@@ -13,11 +13,17 @@
 
 
 <body class="wrapper gutter-1-4">
+
+  <ul class="skip-links">
+    <li class="skip-links"><a href="#main" aria-label="jump-to-main-content"></a>Jump to main content</li>
+    <li class="skip-links"><a href="#nav" aria-label="jump-to-navigation"></a>Jump to navigation</li>
+  </ul>
+
   <header role="banner" class="green pad-t pad-b push gutter-1-2">
     <div class="grid grid-middle grid-stretch">
       <h1 class="yotta unit unit-content-center-vertical xs-1 s-1 m-1-4 l-1-4 xl-1-4"><a class="logo link-box" href="index.html">Humane</a></h1>
       <div class="unit unit-content-center-vertical xs-1 s-1 m-1-2 l-1-2 xl-1-2">
-        <nav role="navigation">
+        <nav role="navigation" id="nav" tabindex="0">
           <ul class="list-group list-group-inline">
             <li><a class="link-box btn btn-ghost" href="index.html">Home</a></li>
             <li><a class="link-box btn btn-ghost" href="tour.html">Tour</a></li>
@@ -32,7 +38,7 @@
     </div>
   </header>
 
-  <main role="main">
+  <main role="main" id="main" tabindex="0">
     <section class="pad-t pad-b push green gutter-1-2">
       <h2 class="center-text push-1-2">ALL-IN-ONE HR</h2>
       <p class="center-text">Minimise the headache so you can get back to business!</p>
