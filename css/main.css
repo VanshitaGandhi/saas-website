@@ -2,7 +2,8 @@ html {
   font-family: "Josefin Sans", sans-serif;
 }
 
-h1 {
+h1,
+.footer-logo {
   font-family: "Oleo Script", cursive;
 }
 
@@ -36,6 +37,18 @@ h1 {
 
 .limited-text {
   width: 20em;
+}
+
+.overlay {
+    bottom: 0rem;
+    left: 0;
+    width: 100%;
+    color: #fff;
+    background-color: rgba(0, 0, 0, .5);
+    border-radius: 4px;
+    max-width: 28em;
+    padding: 0;
+    height: 11em;
 }
 
 .logo,
@@ -97,6 +110,10 @@ a:focus {
   outline: 3px solid #000;
 }
 
+.overlay {
+    height: 15.8em;
+}
+
 @media only screen and (min-width: 38em) {
 
   .padleft {
@@ -107,12 +124,29 @@ a:focus {
     padding-right: .5rem;
   }
 
+  .overlay {
+    height: 19.5em;
+    max-width: 34em;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
 
   .table-wrapper {
     overflow: visible;
+  }
+
+  .overlay {
+    bottom: .5rem;
+    left: 20rem;
+    width: 100%;
+    color: #fff;
+    background-color: rgba(0, 0, 0, .5);
+    border-radius: 4px;
+    max-width: 28em;
+    padding: 1em;
+    height: 20em;
   }
 
 }
