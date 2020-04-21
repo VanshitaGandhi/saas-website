@@ -40,15 +40,15 @@ h1,
 }
 
 .overlay {
-    bottom: 0rem;
-    left: 0;
-    width: 100%;
-    color: #fff;
-    background-color: rgba(0, 0, 0, .5);
-    border-radius: 4px;
-    max-width: 28em;
-    padding: 0;
-    height: 11em;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  color: #fff;
+  background-color: rgba(0, 0, 0, .5);
+  border-radius: 4px;
+  max-width: 28em;
+  padding: 0;
+  height: 11em;
 }
 
 .logo,
@@ -110,9 +110,21 @@ a:focus {
   outline: 3px solid #000;
 }
 
+.product-statement {
+  display: none;
+}
+
 @media only screen and (min-width: 25em) {
 
   .overlay {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: #fff;
+    background-color: rgba(0, 0, 0, .5);
+    border-radius: 4px;
+    max-width: 28em;
+    padding: 0;
     height: 14em;
   }
 
@@ -122,6 +134,10 @@ a:focus {
 
   .space-above {
     margin-top: .2em;
+  }
+
+  .product-statement {
+    display: block;
   }
 
 }
